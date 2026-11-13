@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T17:13:49.924Z",
+  "generatedAt": "2026-11-13T17:15:59.150Z",
   "plugins": [
     {
       "id": "docs",
@@ -83,6 +83,26 @@
           "sha256": "876951c8eb2c0cab1b1d5327a96062a17a89f5b5fa145d7e2070b94823643c61",
           "size": 145539535,
           "executable": "SpreadX.exe"
+        }
+      }
+    },
+    {
+      "id": "tabiix",
+      "label": "Tabiix Management",
+      "note": "Independent commerce operations workspace.",
+      "products": [
+        "lab",
+        "proz"
+      ],
+      "version": "0.1.0",
+      "publishedAt": "2026-11-13T17:15:59.144Z",
+      "releaseNotes": "Initial portable Windows x64 release.",
+      "platforms": {
+        "win32-x64": {
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/tabiix-v0.1.0/Tabiix-Management-0.1.0-win-x64.zip",
+          "sha256": "a2283a46f348e07d44c03210a1d0f1f6b38f6426b2d70126e353fe74f03123c5",
+          "size": 144344362,
+          "executable": "Tabiix Management.exe"
         }
       }
     }
