@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T16:58:36.918Z",
+  "generatedAt": "2026-11-13T17:13:49.924Z",
   "plugins": [
     {
       "id": "docs",
@@ -20,6 +20,27 @@
           "sha256": "9a5af1b0e389609ee0a881eb1376e3bd1ee13073c115afad02fc0c0ef88ee591",
           "size": 167306712,
           "executable": "DocsX.exe"
+        }
+      }
+    },
+    {
+      "id": "meshx",
+      "label": "MeshX",
+      "note": "Independent 3D generation and asset workspace.",
+      "products": [
+        "lab",
+        "proz",
+        "designz"
+      ],
+      "version": "0.1.0",
+      "publishedAt": "2026-11-13T17:13:49.919Z",
+      "releaseNotes": "Initial portable Windows x64 release.",
+      "platforms": {
+        "win32-x64": {
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/meshx-v0.1.0/MeshX-0.1.0-win-x64.zip",
+          "sha256": "4cfc41cc75501931f75bf68594c0eabc1bd8aba1f3379995ccbd451976c8a52e",
+          "size": 179616777,
+          "executable": "MeshX.exe"
         }
       }
     },
