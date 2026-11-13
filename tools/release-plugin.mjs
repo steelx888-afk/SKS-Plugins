@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+﻿#!/usr/bin/env node
 import { createHash } from "node:crypto";
 import { createReadStream, createWriteStream, existsSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { mkdir, rm } from "node:fs/promises";
@@ -174,8 +174,9 @@ writeFileSync(catalogFile, `${JSON.stringify(catalog, null, 2)}\n`, "utf8");
 run("git", ["add", "catalog.json"], repoRoot);
 const status = capture("git", ["status", "--porcelain", "--", "catalog.json"], repoRoot);
 if (status) {
-  run("git", ["commit", "-m", `catalog: ${id} ${version}`], repoRoot);
-  if (!flag("no-push")) run("git", ["push"], repoRoot);
+  run("git", ["-c", "user.name=SKS Release", "-c", "user.email=steelx888-afk@users.noreply.github.com", "commit", "-m", `catalog: ${id} ${version}`], repoRoot);
+  if (!flag("no-push")) run("git", ["push", "origin", "HEAD:main"], repoRoot);
 }
 
 console.log(JSON.stringify({ ok: true, id, version, tag, assetUrl, sha256, size, zipPath }, null, 2));
+
