@@ -1,0 +1,20 @@
+{
+  "name": "sks-plugins",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portable plugin releases and catalog for SKS desktop applications",
+  "scripts": {
+    "validate": "node tools/validate-catalog.mjs",
+    "release": "node tools/release-plugin.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steelx888-afk/SKS-Plugins.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "archiver": "^7.0.1"
+  }
+}
