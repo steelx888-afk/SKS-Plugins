@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T17:15:59.150Z",
+  "generatedAt": "2026-11-13T17:26:40.533Z",
   "plugins": [
     {
       "id": "docs",
@@ -83,6 +83,27 @@
           "sha256": "876951c8eb2c0cab1b1d5327a96062a17a89f5b5fa145d7e2070b94823643c61",
           "size": 145539535,
           "executable": "SpreadX.exe"
+        }
+      }
+    },
+    {
+      "id": "studiox",
+      "label": "StudioX",
+      "note": "Image, video, audio, agents, and FlowX workflows.",
+      "products": [
+        "lab",
+        "proz",
+        "designz"
+      ],
+      "version": "0.1.0",
+      "publishedAt": "2026-11-13T17:26:40.524Z",
+      "releaseNotes": "Initial portable Windows x64 release.",
+      "platforms": {
+        "win32-x64": {
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/studiox-v0.1.0/StudioX-0.1.0-win-x64.zip",
+          "sha256": "d203e1e002d5e60d1f087f778f3459623238bd781ebf8f51cefb26cd26f431e3",
+          "size": 243091694,
+          "executable": "StudioX.exe"
         }
       }
     },
