@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T16:21:29.868Z",
+  "generatedAt": "2026-11-13T16:56:26.439Z",
   "plugins": [
+    {
+      "id": "docs",
+      "label": "DocsX",
+      "note": "Documents and AI writing workspace.",
+      "products": [
+        "lab",
+        "proz",
+        "designz"
+      ],
+      "version": "1.1.0",
+      "publishedAt": "2026-11-13T16:56:26.434Z",
+      "releaseNotes": "Initial portable Windows x64 release.",
+      "platforms": {
+        "win32-x64": {
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/docs-v1.1.0/DocsX-1.1.0-win-x64.zip",
+          "sha256": "9a5af1b0e389609ee0a881eb1376e3bd1ee13073c115afad02fc0c0ef88ee591",
+          "size": 167306712,
+          "executable": "DocsX.exe"
+        }
+      }
+    },
     {
       "id": "slidex",
       "label": "SLIDEX",
