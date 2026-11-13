@@ -43,7 +43,7 @@ function capture(command, args, cwd) {
   return String(result.stdout || "").trim();
 }
 function readJson(file) {
-  return JSON.parse(readFileSync(file, "utf8"));
+  return JSON.parse(readFileSync(file, "utf8").replace(/^\uFEFF/, ""));
 }
 const appDir = path.resolve(arg("app-dir"));
 if (!arg("app-dir")) {
@@ -98,27 +98,36 @@ const electronVersion = String(
   "",
 ).replace(/^[^\d]*/, "");
 const iconFile = config.icon ? path.resolve(appPath, config.icon) : "";
-const paths = await packager({
-  dir: appPath,
-  name: label,
-  platform: "win32",
-  arch: "x64",
-  out: outRoot,
-  overwrite: true,
-  asar: true,
-  prune: true,
-  appVersion: version,
-  electronVersion: electronVersion || undefined,
-  icon: iconFile && existsSync(iconFile) ? iconFile : undefined,
-  ignore: [...defaultIgnore, ...extraIgnore],
-  win32metadata: {
-    CompanyName: "SKS",
-    FileDescription: label,
-    ProductName: label,
-    InternalName: id,
-  },
-});
-const packagedDir = paths[0];
+let packagedDir = "";
+if (config.builder === "electron-builder") {
+  const builderCli = path.join(appPath, "node_modules", "electron-builder", "cli.js");
+  if (!existsSync(builderCli)) throw new Error(`electron-builder is not installed in ${appPath}`);
+  const builderConfig = path.resolve(appDir, config.builderConfig || "sks-electron-builder.json");
+  run(process.execPath, [builderCli, "--config", builderConfig, "--win", "--x64"], appPath);
+  packagedDir = path.resolve(appPath, config.outputDir || "release-sks", "win-unpacked");
+} else {
+  const paths = await packager({
+    dir: appPath,
+    name: label,
+    platform: "win32",
+    arch: "x64",
+    out: outRoot,
+    overwrite: true,
+    asar: true,
+    prune: true,
+    appVersion: version,
+    electronVersion: electronVersion || undefined,
+    icon: iconFile && existsSync(iconFile) ? iconFile : undefined,
+    ignore: [...defaultIgnore, ...extraIgnore],
+    win32metadata: {
+      CompanyName: "SKS",
+      FileDescription: label,
+      ProductName: label,
+      InternalName: id,
+    },
+  });
+  packagedDir = paths[0];
+}
 if (!packagedDir || !existsSync(path.join(packagedDir, executable))) {
   throw new Error(`Packaged app did not produce ${executable} in ${packagedDir || "an output folder"}.`);
 }
