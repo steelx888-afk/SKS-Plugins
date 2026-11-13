@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T16:56:26.439Z",
+  "generatedAt": "2026-11-13T16:58:36.918Z",
   "plugins": [
     {
       "id": "docs",
@@ -41,6 +41,27 @@
           "sha256": "c480efab2f72b1bd64e0c7c05f09df71f0ddefaab099ad2ae1aa83220ffee6eb",
           "size": 266753199,
           "executable": "SLIDEX.exe"
+        }
+      }
+    },
+    {
+      "id": "spreadx",
+      "label": "SpreadX",
+      "note": "Spreadsheets, templates, and drawing-to-BOM workflows.",
+      "products": [
+        "lab",
+        "proz",
+        "designz"
+      ],
+      "version": "0.1.0",
+      "publishedAt": "2026-11-13T16:58:36.913Z",
+      "releaseNotes": "Initial portable Windows x64 release.",
+      "platforms": {
+        "win32-x64": {
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.0/SpreadX-0.1.0-win-x64.zip",
+          "sha256": "876951c8eb2c0cab1b1d5327a96062a17a89f5b5fa145d7e2070b94823643c61",
+          "size": 145539535,
+          "executable": "SpreadX.exe"
         }
       }
     }
