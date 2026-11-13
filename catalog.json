@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T15:17:12.560Z",
+  "generatedAt": "2026-11-13T16:21:29.868Z",
   "plugins": [
     {
       "id": "slidex",
       "label": "SLIDEX",
-      "note": "",
+      "note": "Presentations and visual design workspace.",
       "products": [
         "lab",
         "proz",
         "designz"
       ],
-      "version": "0.2.0",
-      "publishedAt": "2026-11-13T15:17:12.560Z",
-      "releaseNotes": "Initial portable Windows x64 release.",
+      "version": "0.2.1",
+      "publishedAt": "2026-11-13T16:21:29.868Z",
+      "releaseNotes": "Portable release with the managed plugin launcher and update check.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/slidex-v0.2.0/SLIDEX-0.2.0-win-x64.zip",
-          "sha256": "8bd902813bff85243ac572bc15b8f5e7ba07913ad75ced279868cabdeb31a786",
-          "size": 266753160,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/slidex-v0.2.1/SLIDEX-0.2.1-win-x64.zip",
+          "sha256": "c480efab2f72b1bd64e0c7c05f09df71f0ddefaab099ad2ae1aa83220ffee6eb",
+          "size": 266753199,
           "executable": "SLIDEX.exe"
         }
       }
