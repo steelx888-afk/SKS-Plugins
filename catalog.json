@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T06:36:55.587Z",
+  "generatedAt": "2026-11-17T11:02:23.096Z",
   "plugins": [
     {
       "id": "docs",
@@ -11,14 +11,14 @@
         "proz",
         "designz"
       ],
-      "version": "1.1.0",
-      "publishedAt": "2026-11-13T16:56:26.434Z",
-      "releaseNotes": "Initial portable Windows x64 release.",
+      "version": "1.1.1",
+      "publishedAt": "2026-11-17T11:02:23.091Z",
+      "releaseNotes": "Clearer editing toolbar and table controls; visible, adjustable table borders; packaged template images.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/docs-v1.1.0/DocsX-1.1.0-win-x64.zip",
-          "sha256": "9a5af1b0e389609ee0a881eb1376e3bd1ee13073c115afad02fc0c0ef88ee591",
-          "size": 167306712,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/docs-v1.1.1/DocsX-1.1.1-win-x64.zip",
+          "sha256": "067d80f7472cbf742fcddda579118a66bed9b740fd10b9376250b87c0215e34f",
+          "size": 173836126,
           "executable": "DocsX.exe"
         }
       }
