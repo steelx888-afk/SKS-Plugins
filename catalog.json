@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T17:26:40.533Z",
+  "generatedAt": "2026-11-17T06:36:55.587Z",
   "plugins": [
     {
       "id": "docs",
@@ -95,14 +95,14 @@
         "proz",
         "designz"
       ],
-      "version": "0.1.0",
-      "publishedAt": "2026-11-13T17:26:40.524Z",
-      "releaseNotes": "Initial portable Windows x64 release.",
+      "version": "0.1.1",
+      "publishedAt": "2026-11-17T06:36:55.582Z",
+      "releaseNotes": "StudioX 0.1.1: improved Agents and FlowX workflows, locked unfinished Layers, fixed Body Swap input, and stabilized display scaling.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/studiox-v0.1.0/StudioX-0.1.0-win-x64.zip",
-          "sha256": "d203e1e002d5e60d1f087f778f3459623238bd781ebf8f51cefb26cd26f431e3",
-          "size": 243091694,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/studiox-v0.1.1/StudioX-0.1.1-win-x64.zip",
+          "sha256": "d9188ad64686feeea81026fd42a4cb8f2ae846bfa896ee428945b7430fe17400",
+          "size": 243094222,
           "executable": "StudioX.exe"
         }
       }
