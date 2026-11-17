@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T11:02:23.096Z",
+  "generatedAt": "2026-11-17T11:05:11.919Z",
   "plugins": [
     {
       "id": "docs",
@@ -68,20 +68,20 @@
     {
       "id": "spreadx",
       "label": "SpreadX",
-      "note": "Spreadsheets, templates, and drawing-to-BOM workflows.",
+      "note": "Spreadsheets, templates, XLSX exchange, and drawing attachments.",
       "products": [
         "lab",
         "proz",
         "designz"
       ],
-      "version": "0.1.0",
-      "publishedAt": "2026-11-13T16:58:36.913Z",
-      "releaseNotes": "Initial portable Windows x64 release.",
+      "version": "0.1.1",
+      "publishedAt": "2026-11-17T11:05:11.915Z",
+      "releaseNotes": "SpreadX 0.1.1: readable light UI and sidebar, dark worksheet text, safer autosave, working local XLSX, history and image operations, and a bundled converter. Drawing attachments are preserved; automatic extraction requires a connected service.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.0/SpreadX-0.1.0-win-x64.zip",
-          "sha256": "876951c8eb2c0cab1b1d5327a96062a17a89f5b5fa145d7e2070b94823643c61",
-          "size": 145539535,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.1/SpreadX-0.1.1-win-x64.zip",
+          "sha256": "96d56721479754cb346c273c29317b39d353ed2d21350b84240a95e3c0d7079b",
+          "size": 180880427,
           "executable": "SpreadX.exe"
         }
       }
