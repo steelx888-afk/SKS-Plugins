@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T11:05:11.919Z",
+  "generatedAt": "2026-11-17T11:30:44.896Z",
   "plugins": [
     {
       "id": "docs",
@@ -74,14 +74,14 @@
         "proz",
         "designz"
       ],
-      "version": "0.1.1",
-      "publishedAt": "2026-11-17T11:05:11.915Z",
-      "releaseNotes": "SpreadX 0.1.1: readable light UI and sidebar, dark worksheet text, safer autosave, working local XLSX, history and image operations, and a bundled converter. Drawing attachments are preserved; automatic extraction requires a connected service.",
+      "version": "0.1.2",
+      "publishedAt": "2026-11-17T11:30:44.891Z",
+      "releaseNotes": "Designz chat can attach drawing sources and write reviewed BOM rows into SpreadX workbooks. Open SpreadX windows refresh external revisions, preserve history, and reject stale saves.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.1/SpreadX-0.1.1-win-x64.zip",
-          "sha256": "96d56721479754cb346c273c29317b39d353ed2d21350b84240a95e3c0d7079b",
-          "size": 180880427,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.2/SpreadX-0.1.2-win-x64.zip",
+          "sha256": "2a23debd0aadc50538e420f73cab51eab00ba639d69d55949c83d32a7cd1a755",
+          "size": 180880750,
           "executable": "SpreadX.exe"
         }
       }
