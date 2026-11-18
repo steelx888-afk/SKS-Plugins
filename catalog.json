@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T20:53:31.832Z",
+  "generatedAt": "2026-11-18T21:06:53.466Z",
   "plugins": [
     {
       "id": "docs",
@@ -95,14 +95,14 @@
         "proz",
         "designz"
       ],
-      "version": "0.1.5",
-      "publishedAt": "2026-11-18T20:53:31.832Z",
-      "releaseNotes": "Video Studio, AI Clipping, Motion Control, Vibe Motion, Lip Sync, Body Swap and Marketing Studio use the signed-in SKS connection. Local video and audio references require the updated SKS host.",
+      "version": "0.1.6",
+      "publishedAt": "2026-11-18T21:06:53.466Z",
+      "releaseNotes": "Fixes video and audio reference uploads when launched from an up-to-date SKS desktop app on Windows. Handles common media extensions and filenames containing spaces or Unicode.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/studiox-v0.1.5/StudioX-0.1.5-win-x64.zip",
-          "sha256": "67b6f7d1deb46dfd86621f65a80195259b52e4b9c740c3e5925390dbf86d2394",
-          "size": 243105035,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/studiox-v0.1.6/StudioX-0.1.6-win-x64.zip",
+          "sha256": "e3e9f3af2cfb97d32ab3ff1d71027b939281fd072c2c6f8699f64fe4552c90af",
+          "size": 243105447,
           "executable": "StudioX.exe"
         }
       }
