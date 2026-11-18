@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T19:40:50.802Z",
+  "generatedAt": "2026-11-18T20:13:18.193Z",
   "plugins": [
     {
       "id": "docs",
@@ -95,14 +95,14 @@
         "proz",
         "designz"
       ],
-      "version": "0.1.2",
-      "publishedAt": "2026-11-18T19:40:50.802Z",
-      "releaseNotes": "Image Studio and Layers Studio use the signed-in SKS connection when launched from Plugins. Layers Studio is available again under Images.",
+      "version": "0.1.3",
+      "publishedAt": "2026-11-18T20:13:18.193Z",
+      "releaseNotes": "Cinema Studio and AI Influencer Studio use the SKS connection. Design Agent connects to supported SKS hosts with its own session API. Existing Designz versions need the host update for Design Agent.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/studiox-v0.1.2/StudioX-0.1.2-win-x64.zip",
-          "sha256": "1ced9d876504ac6752f50cacf331b06caf86e0a17f18ebd7b47f4f4d183eae68",
-          "size": 243100427,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/studiox-v0.1.3/StudioX-0.1.3-win-x64.zip",
+          "sha256": "c04d88b99ab2c3619ac46f3ed507fd1dda1ed79ef677556f7d059f6e745465a7",
+          "size": 243104028,
           "executable": "StudioX.exe"
         }
       }
