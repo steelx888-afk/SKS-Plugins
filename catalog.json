@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T21:06:53.466Z",
+  "generatedAt": "2026-11-18T22:14:54.147Z",
   "plugins": [
     {
       "id": "docs",
@@ -95,14 +95,14 @@
         "proz",
         "designz"
       ],
-      "version": "0.1.6",
-      "publishedAt": "2026-11-18T21:06:53.466Z",
-      "releaseNotes": "Fixes video and audio reference uploads when launched from an up-to-date SKS desktop app on Windows. Handles common media extensions and filenames containing spaces or Unicode.",
+      "version": "0.1.7",
+      "publishedAt": "2026-11-18T22:14:54.147Z",
+      "releaseNotes": "Uses your Designz account for Agents and FlowX. Restores connected tool results, workflow generation, saved canvases, and bundled templates on Designz 0.1.35.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/studiox-v0.1.6/StudioX-0.1.6-win-x64.zip",
-          "sha256": "e3e9f3af2cfb97d32ab3ff1d71027b939281fd072c2c6f8699f64fe4552c90af",
-          "size": 243105447,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/studiox-v0.1.7/StudioX-0.1.7-win-x64.zip",
+          "sha256": "b78e96dee17095ed5b5121ca36100651fad0ca5dd1946e26193dd37bca0cd151",
+          "size": 243109961,
           "executable": "StudioX.exe"
         }
       }
