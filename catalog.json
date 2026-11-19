@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T22:14:54.147Z",
+  "generatedAt": "2026-11-19T12:14:05.267Z",
   "plugins": [
     {
       "id": "docs",
@@ -74,14 +74,14 @@
         "proz",
         "designz"
       ],
-      "version": "0.1.2",
-      "publishedAt": "2026-11-17T11:30:44.891Z",
-      "releaseNotes": "Designz chat can attach drawing sources and write reviewed BOM rows into SpreadX workbooks. Open SpreadX windows refresh external revisions, preserve history, and reject stale saves.",
+      "version": "0.1.3",
+      "publishedAt": "2026-11-19T12:14:05.262Z",
+      "releaseNotes": "Add the five-sheet Product Manufacturing Master template and remove the Manufacturing BOM, Inventory tracker, and Project tracker starters. Preserve existing workbooks and drawing workflow compatibility.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.2/SpreadX-0.1.2-win-x64.zip",
-          "sha256": "2a23debd0aadc50538e420f73cab51eab00ba639d69d55949c83d32a7cd1a755",
-          "size": 180880750,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.3/SpreadX-0.1.3-win-x64.zip",
+          "sha256": "091ccfe44658f1c1d10e8b75f60b59393beba075b655d0efb7e6972a6d3bc303",
+          "size": 180891333,
           "executable": "SpreadX.exe"
         }
       }
