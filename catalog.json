@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T12:14:05.267Z",
+  "generatedAt": "2026-11-20T15:38:41.701Z",
   "plugins": [
     {
       "id": "docs",
@@ -74,14 +74,14 @@
         "proz",
         "designz"
       ],
-      "version": "0.1.3",
-      "publishedAt": "2026-11-19T12:14:05.262Z",
-      "releaseNotes": "Add the five-sheet Product Manufacturing Master template and remove the Manufacturing BOM, Inventory tracker, and Project tracker starters. Preserve existing workbooks and drawing workflow compatibility.",
+      "version": "0.1.4",
+      "publishedAt": "2026-11-20T15:38:30Z",
+      "releaseNotes": "## Product Manufacturing Master\n\n- Use the verified five-sheet workbook as the built-in template. An untouched Excel export matches the reference file exactly.\n- Fit more of each worksheet on screen with tighter column widths and row heights, frozen headers, and drawings shown in their cells.\n- Preserve the workbook's formulas, drawings, filters, formatting, and print settings when exporting normal cell and layout edits.\n\nExisting workbooks continue to open in SpreadX.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.3/SpreadX-0.1.3-win-x64.zip",
-          "sha256": "091ccfe44658f1c1d10e8b75f60b59393beba075b655d0efb7e6972a6d3bc303",
-          "size": 180891333,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.4/SpreadX-0.1.4-win-x64.zip",
+          "sha256": "5c4a76c43b26733ad36e3241853a02f8a98b690e5ae7e730629378de4621ac32",
+          "size": 182238312,
           "executable": "SpreadX.exe"
         }
       }
