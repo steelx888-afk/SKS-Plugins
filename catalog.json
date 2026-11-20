@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T15:38:41.701Z",
+  "generatedAt": "2026-11-20T16:14:00.186Z",
   "plugins": [
     {
       "id": "docs",
@@ -74,14 +74,14 @@
         "proz",
         "designz"
       ],
-      "version": "0.1.4",
-      "publishedAt": "2026-11-20T15:38:30Z",
-      "releaseNotes": "## Product Manufacturing Master\n\n- Use the verified five-sheet workbook as the built-in template. An untouched Excel export matches the reference file exactly.\n- Fit more of each worksheet on screen with tighter column widths and row heights, frozen headers, and drawings shown in their cells.\n- Preserve the workbook's formulas, drawings, filters, formatting, and print settings when exporting normal cell and layout edits.\n\nExisting workbooks continue to open in SpreadX.",
+      "version": "0.1.5",
+      "publishedAt": "2026-11-20T16:13:47Z",
+      "releaseNotes": "## Product Manufacturing Master\n\n- Keep blank cells blank in all five sheets, including column A in Product Summary and Cost Breakdown.\n- Correct the summary and cost totals affected by the extra zeros. The template's 1,670 formulas and calculated values were checked against the original workbook in Excel.\n- Correct the imported cells when opening a master created in 0.1.4. Untouched XLSX exports still match the original workbook byte for byte.",
       "platforms": {
         "win32-x64": {
-          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.4/SpreadX-0.1.4-win-x64.zip",
-          "sha256": "5c4a76c43b26733ad36e3241853a02f8a98b690e5ae7e730629378de4621ac32",
-          "size": 182238312,
+          "url": "https://github.com/steelx888-afk/SKS-Plugins/releases/download/spreadx-v0.1.5/SpreadX-0.1.5-win-x64.zip",
+          "sha256": "bec856a6151743bb5f9f9ccc99871af7aa9389a154bab2e419f08db16b571c44",
+          "size": 182241697,
           "executable": "SpreadX.exe"
         }
       }
